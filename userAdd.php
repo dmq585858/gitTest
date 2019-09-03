@@ -2,6 +2,8 @@
 <form action="{:url('User/addUser')}" method="post">
     用户名：
     <input type="text" name="name" id=""><br />
+    密码:
+    <input type="password" name="password" /><br />
     年龄：
     <input type="text" name="age" id=""><br />
     邮箱：
